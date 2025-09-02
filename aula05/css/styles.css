@@ -1,0 +1,92 @@
+:root {
+    /* Definindo as variaveis globais */
+
+    --cor-principal: #2c3e50;
+    --cor-destaque: #3498db;
+    --cor-fundo: #f4f4f9;
+
+
+    --font-principal: 'Arial', 'sans-serif';
+    --font-titulo: 'Georgia', serif;
+
+}
+
+body {
+    font-family: var(--font-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+    font-size: 16px;
+    padding: 20px;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+header h3 {
+    font-family: var(--font-titulo);
+    color: var(--cor-destaque);
+    font-size: 2.5rem;
+}
+
+header p{
+    font-size: 1.2rem;
+}
+
+section{
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 80vw;
+}
+
+/* utilizando um ID */
+#destaque{
+    font-weight: bold;
+    color:var(--cor-destaque);
+}
+
+/* utilizando uma class */
+
+.card{
+    background-color: var(--cor-destaque);
+    color: white;
+}
+
+.card h2{
+    font-size: 1.5rem;
+}
+
+.card ul{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.card li{
+    font-size: 1.1rem;
+    margin: 8px 0;
+}
+
+.card li span {
+    font-weight: bold;
+}
+
+#foto-perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid var(--cor-destaque);
+    margin: 10px auto;
+    display: block;
+    
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
